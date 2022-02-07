@@ -1,0 +1,11 @@
+[
+    {"img":"jb","item":5,"imgscale":1,"num":150,"chance":15},
+    {"img":"26","item":3,"imgscale":1.25,"num":3,"chance":2},
+    {"img":"jb","item":5,"imgscale":1,"num":50,"chance":40},
+    {"img":"30","item":0,"imgscale":1,"num":1,"chance":8},
+    {"img":"jb","item":5,"imgscale":1,"num":100,"chance":7},
+    {"img":"31","item":1,"imgscale":1.75,"num":1,"chance":20},
+    {"img":"jb","item":5,"imgscale":1,"num":500,"chance":3},
+    {"img":"longline","item":6,"imgscale":1,"num":1,"chance":5}
+    
+]

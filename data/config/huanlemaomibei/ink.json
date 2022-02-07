@@ -1,0 +1,17 @@
+[
+    {"id":1, "path": "inkskin/墨水皮肤01", "coin": 1000},
+    {"id":2, "path": "inkskin/墨水皮肤02", "coin": 1000},
+    {"id":3, "path": "inkskin/墨水皮肤03", "coin": 1000},
+    {"id":4, "path": "inkskin/墨水皮肤04", "coin": 2000},
+    {"id":5, "path": "inkskin/墨水皮肤05", "coin": 2000},
+    {"id":6, "path": "inkskin/墨水皮肤06", "coin": 2000},
+    {"id":7, "path": "inkskin/墨水皮肤07", "daily": 1},
+    {"id":8, "path": "inkskin/墨水皮肤08", "daily": 1},
+    {"id":9, "path": "inkskin/墨水皮肤09", "daily": 1},
+    {"id":10, "path": "inkskin/墨水皮肤10", "coin": 3000},
+    {"id":11, "path": "inkskin/墨水皮肤11", "coin": 3000},
+    {"id":12, "path": "inkskin/墨水皮肤12", "coin": 3000},
+    {"id":13, "path": "inkskin/墨水皮肤13", "coin": 4000},
+    {"id":14, "path": "inkskin/墨水皮肤14", "coin": 5000},
+    {"id":15, "path": "inkskin/墨水皮肤15", "coin": 6000}
+]

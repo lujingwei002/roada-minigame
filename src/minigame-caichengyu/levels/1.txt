@@ -1,0 +1,1 @@
+{"idioms":[{"id":6900,"grids":[{"id":28,"space":false},{"id":29,"space":false},{"id":30,"space":false},{"id":31,"space":true}]},{"id":1602,"grids":[{"id":31,"space":true},{"id":40,"space":false},{"id":49,"space":false},{"id":58,"space":true}]},{"id":865,"grids":[{"id":58,"space":true},{"id":59,"space":false},{"id":60,"space":true},{"id":61,"space":false}]}]}

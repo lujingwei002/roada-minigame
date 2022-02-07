@@ -1,0 +1,8 @@
+[
+    {"id": 0, "weight": 400, "name": "金币x50",  "gold" : 50, "skin": 0},
+    {"id": 1, "weight": 100, "name": "金币x100", "gold" : 100, "skin": 0},
+    {"id": 2, "weight": 50,  "name": "金币×150", "gold" : 150, "skin": 0},
+    {"id": 3, "weight": 400,  "name": "金币×50",  "gold" : 50, "skin": 0},
+    {"id": 4, "weight": 10, "name": "金币x200", "gold" : 200, "skin": 0},
+    {"id": 5, "weight": 1,  "name": "皮肤1",  "gold" : 300, "skin": 1}
+]

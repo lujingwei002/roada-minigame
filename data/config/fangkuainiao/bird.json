@@ -1,0 +1,59 @@
+[
+   
+     {
+        "id": 0,
+        "name": "bird-0",
+        "type": 0,
+        "payMoney": 0,
+        "birdIcon": "bird-0",
+        "eggIcon": "egg-0"
+    },
+    {
+        "id": 1,
+        "name": "bird-1",
+        "type": 1,
+        "payMoney": 0,
+        "birdIcon": "bird-1",
+        "eggIcon": "egg-1"
+    },
+    {
+        "id": 2,
+        "name": "bird-2",
+        "type": 2,
+        "payMoney": 1000,
+        "birdIcon": "bird-2",
+        "eggIcon": "egg-2"
+    },
+    {
+        "id": 3,
+        "name": "bird-3",
+        "type": 2,
+        "payMoney": 5000,
+        "birdIcon": "bird-3",
+        "eggIcon": "egg-3"
+    },
+    {
+        "id": 4,
+        "name": "bird-4",
+        "type": 5,
+        "payMoney": 50,
+        "birdIcon": "bird-4",
+        "eggIcon": "egg-4"
+    },
+    {
+        "id": 5,
+        "name": "bird-5",
+        "type": 2,
+        "payMoney": 10000,
+        "birdIcon": "bird-5",
+        "eggIcon": "egg-5"
+    },
+    {
+        "id": 6,
+        "name": "bird-6",
+        "type": 5,
+        "payMoney": 100,
+        "birdIcon": "bird-6",
+        "eggIcon": "egg-6"
+    }
+]

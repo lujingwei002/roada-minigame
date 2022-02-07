@@ -1,0 +1,38 @@
+definitions:
+  controller.AccountDebugLoginResponse:
+    properties:
+      server_addr:
+        type: string
+      token:
+        type: string
+    type: object
+info:
+  contact: {}
+paths:
+  /account/debug_login:
+    post:
+      consumes:
+      - application/x-www-form-urlencoded
+      parameters:
+      - default: 2
+        description: 用户id
+        in: formData
+        name: userid
+        required: true
+        type: integer
+      - description: 密钥
+        in: formData
+        name: code
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "0":
+          description: ""
+          schema:
+            $ref: '#/definitions/controller.AccountDebugLoginResponse'
+      summary: 测试登陆
+      tags:
+      - account
+swagger: "2.0"

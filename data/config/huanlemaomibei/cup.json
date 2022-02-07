@@ -1,0 +1,18 @@
+[
+{"id":1, "path": "cupskin/NO1", "coin": 1000  },
+{"id":2, "path": "cupskin/NO2", "coin": 1000 },
+{"id":3, "path": "cupskin/NO3", "coin": 1000 },
+{"id":4, "path": "cupskin/NO4", "coin": 2000 },
+{"id":5, "path": "cupskin/NO5", "coin": 2000  },
+{"id":6, "path": "cupskin/NO6", "coin": 2000  },
+{"id":7, "path": "cupskin/NO7", "daily": 1 },
+{"id":8, "path": "cupskin/NO8", "daily": 1},
+{"id":9, "path": "cupskin/NO9", "daily": 1},
+{"id":10, "path": "cupskin/NO10", "coin": 3000 },
+{"id":11, "path": "cupskin/NO11", "coin": 3000},
+{"id":12, "path": "cupskin/NO12", "coin": 3000 },
+{"id":13, "path": "cupskin/NO13", "coin": 4000 },
+{"id":14, "path": "cupskin/NO14", "roulette": 1 },
+{"id":15, "path": "cupskin/NO15", "coin": 5000 }
+]
+

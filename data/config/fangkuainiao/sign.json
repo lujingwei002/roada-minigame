@@ -1,0 +1,58 @@
+[
+    {
+        "id": 90201,
+        "type": 2,
+        "group": 1,
+        "days": 1,
+        "rewardsMoney": 100,
+        "extreRewards": 100
+    },
+    {
+        "id": 90202,
+        "type": 2,
+        "group": 1,
+        "days": 2,
+        "rewardsMoney": 200,
+        "extreRewards": 200
+    },
+    {
+        "id": 90203,
+        "type": 2,
+        "group": 1,
+        "days": 3,
+        "rewardsMoney": 300,
+        "extreRewards": 300
+    },
+    {
+        "id": 90204,
+        "type": 2,
+        "group": 1,
+        "days": 4,
+        "rewardsMoney": 400,
+        "extreRewards": 400
+    },
+    {
+        "id": 90205,
+        "type": 2,
+        "group": 1,
+        "days": 5,
+        "rewardsMoney": 500,
+        "extreRewards": 500
+    },
+    {
+        "id": 90206,
+        "type": 2,
+        "group": 1,
+        "days": 6,
+        "rewardsMoney": 500,
+        "extreRewards": 500
+    },
+    {
+        "id": 90207,
+        "type": 2,
+        "group": 1,
+        "days": 7,
+        "rewardsMoney": 500,
+        "extreRewards": 500
+    }
+]

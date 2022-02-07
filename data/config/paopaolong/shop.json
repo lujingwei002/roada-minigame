@@ -1,0 +1,10 @@
+[
+    {"item":0,"num":1,"cost":800,"hot":1,"ps":"钢球"},
+    {"item":1,"num":1,"cost":200,"hot":0,"ps":"炸弹"},
+    {"item":6,"num":1,"cost":400,"hot":0,"ps":"瞄准线"},
+    {"item":3,"num":1,"cost":800,"hot":0,"ps":"魔力球"},
+    {"item":4,"num":2,"cost":400,"hot":0,"ps":"体力"},
+    {"item":4,"num":5,"img":"heart2.png","cost":900,"hot":1,"ps":"体力"},
+    {"item":4,"num":10,"img":"heart3.png","cost":1800,"hot":0,"ps":"体力"}
+    
+    ]

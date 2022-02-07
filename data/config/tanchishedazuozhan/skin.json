@@ -1,0 +1,19 @@
+[
+
+    {"id": 1,  "type": 0, "price": 0},
+    {"id": 2,  "type": 0, "price": 5000},
+    {"id": 3,  "type": 0, "price": 8000},
+    {"id": 4,  "type": 0, "price": 12000},
+    {"id": 5,  "type": 0, "price": 13000},
+    {"id": 6,  "type": 0, "price": 14000},
+    {"id": 7,  "type": 0, "price": 15000},
+    {"id": 8,  "type": 0, "price": 16000},
+    {"id": 9,  "type": 0, "price": 17000},
+    {"id": 10, "type": 0, "price": 18000},
+    {"id": 11, "type": 0, "price": 19000},
+    {"id": 12, "type": 0, "price": 20000},
+    {"id": 13, "type": 0, "price": 21000},
+    {"id": 14, "type": 0, "price": 22000},
+    {"id": 15, "type": 0, "price": 23000},
+    {"id": 16, "type": 0, "price": 24000}
+]

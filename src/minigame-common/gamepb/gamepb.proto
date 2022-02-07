@@ -1,0 +1,1165 @@
+syntax="proto3";
+package gamepb;
+option go_package = "./;gamepb";
+
+//踢下线
+message KickPush {
+    string Reason = 1;
+}
+
+message LoginRequest {
+    string Openid = 1;
+    string Nickname = 2;
+    string Avatar = 3;
+    string Token = 4;
+    int32 Time = 5;
+    int64 PlatformRegisterTime = 6;
+}
+
+message LoginResponse {
+    int32 Code = 1;
+    int64 Userid = 2;
+    int64 Coin = 3;
+    int64 Score = 4;
+    int64 Medal = 5;
+    int64 Diamond = 6;
+    int64 ServerTime = 7;
+    int64 Level = 8;
+    int64 Gold = 9;
+}
+
+message RoundShareRequest {
+    
+}
+
+message RoundShareResponse {
+    int32 Code = 1;
+}
+
+message RoundStartRequest {
+    
+}
+
+message RoundStartResponse {
+    int32 Code = 1;
+}
+
+message RoundResultRequest {
+    int64 Score = 1;
+    int64 Medal = 2;
+}
+
+message RoundResultResponse {
+    int32 Code = 1;
+}
+
+message RankUser {
+    string Openid = 1;
+    string Nickname = 2;
+    string Avatar = 3;
+    int64 Score = 4;
+}
+
+message GetLevelRankRequest {
+    int32 Type = 1; //1=日榜 2=总榜
+}
+
+message GetLevelRankResponse {
+    int32 Code = 1;
+    repeated RankUser Users = 2;
+    int32 Rank = 3;
+    int64 Score = 4;
+}
+
+//积分榜
+message GetScoreRankRequest {
+    int32 Type = 1; //1=日榜 2=总榜
+}
+
+message GetScoreRankResponse {
+    int32 Code = 1;
+    repeated RankUser Users = 2;
+    int32 Rank = 3;
+    int64 Score = 4;
+}
+//金牌榜
+message GetMedalRankRequest {
+    int32 Type = 1; //1=日榜 2=总榜
+}
+
+message GetMedalRankResponse {
+    int32 Code = 1;
+    repeated RankUser Users = 2;
+    int32 Rank = 3;
+    int64 Score = 4;
+}
+
+
+//-----------------大西瓜---------------------------
+message DaxiguaGetDataRequest {
+  
+}
+
+message DaxiguaGetDataResponse {
+    int32 Code = 1;
+    int64 Userid = 2;
+    int32 GameId = 3;
+}
+
+message DaxiguaStartRequest {
+    
+}
+
+message DaxiguaStartResponse {
+    int32 Code = 1;
+}
+
+message DaxiguaResultRequest {
+    int64 Score = 1;
+    int64 Medal = 2;
+}
+
+message DaxiguaResultResponse {
+    int32 Code = 1;
+}
+//-----------------大西瓜---------------------------
+
+
+
+
+
+//-----------------奔跑吧小鹅鹅---------------------------
+message BpbxqGetDataRequest {
+  
+}
+
+message BpbxqGetDataResponse {
+    int32 Code = 1;
+    int64 Userid = 2;
+    int32 Skin = 3;
+    string SkinArr = 4;
+    int64 LastSignTime = 5;
+    int64 SignTimes = 6;
+    int64 SignTimeNow = 7;
+    int32 GameId = 8;
+}
+
+
+message BpbxqDaySignRequest {
+  
+}
+
+message BpbxqDaySignResponse {
+    int32 Code = 1;
+    int64 Coin = 2;
+    int64 LastSignTime = 3;
+    int64 SignTimes = 4;
+    int64 SignTimeNow = 5;
+}
+
+message BpbxqBuySkinRequest {
+    int32 SkinId = 1;
+}
+
+message BpbxqBuySkinResponse {
+    int32 Code = 1;
+    int32 SkinId = 2;
+    int64 Coin = 3;
+}
+
+message BpbxqUseSkinRequest {
+    int32 SkinId = 1;
+}
+
+message BpbxqUseSkinResponse {
+    int32 Code = 1;
+    int32 SkinId = 2;
+}
+
+message BpbxqPickCoinRequest {
+    int64 Coin = 1;
+}
+
+message BpbxqPickCoinResponse {
+    int32 Code = 1;
+    int64 Coin = 2;
+   
+}
+
+message BpbxqReviveRequest {
+
+}
+
+message BpbxqReviveResponse {
+    int32 Code = 1;
+    int64 Coin = 2;
+}
+
+message BpbxqDieflyRequest {
+
+}
+
+message BpbxqDieflyResponse {
+    int32 Code = 1;
+    int64 Coin = 2;
+}
+
+message BpbxqRewardRequest {
+
+}
+
+message BpbxqRewardResponse {
+    int32 Code = 1;
+    int64 Coin = 2;
+}
+
+
+message BpbxqStartRequest {
+    
+}
+
+message BpbxqStartResponse {
+    int32 Code = 1;
+}
+
+message BpbxqResultRequest {
+    int64 Score = 1;
+}
+
+message BpbxqResultResponse {
+    int32 Code = 1;
+}
+//-----------------奔跑吧小鹅鹅---------------------------
+
+
+
+
+//-----------------猜成语---------------------------
+message CaichengyuGetDataRequest {
+  
+}
+
+message CaichengyuGetDataResponse {
+    int32 Code = 1;
+    int64 Userid = 2;
+    int32 RoleLevel = 3;
+    int32 BuildLevel = 4;
+    int64 Level = 5;
+    int32 LevelType = 6;
+    int32 LevelTip = 7;
+    int32 Hp = 8;
+    int64 HpDate = 9;
+    int32 GetHpCount = 10;
+    string GetHpDay = 11;
+    int32 GameId = 12;
+}
+
+
+message CaichengyuStartRequest {
+    
+}
+
+message CaichengyuStartResponse {
+    int32 Code = 1;
+    int32 Hp = 2; //扣的hp
+    int32 LevelTip = 3;
+    RankUser User = 4;
+}
+
+message CaichengyuResultRequest {
+    string Answer = 1;
+}
+
+message CaichengyuResultResponse {
+    int32 Code = 1;
+}
+
+message CaichengyuResetHpRequest {
+    
+}
+
+message CaichengyuResetHpResponse {
+    int32 Code = 1;
+    int32 Hp = 2;
+    int64 HpDate = 3;
+}
+
+message CaichengyuUpgradeRoleRequest {
+    
+}
+
+message CaichengyuUpgradeRoleResponse {
+    int32 Code = 1;
+    int32 RoleLevel = 2;
+}
+
+message CaichengyuUpgradeBuildRequest {
+    
+}
+
+message CaichengyuUpgradeBuildResponse {
+    int32 Code = 1;
+    int32 BuildLevel = 2;
+}
+
+message CaichengyuGetHpRequest {
+    
+}
+
+message CaichengyuGetHpResponse {
+    int32 Code = 1;
+    int32 Hp = 2;
+}
+
+message CaichengyuTipRequest {
+    
+}
+
+message CaichengyuTipResponse {
+    int32 Code = 1;
+    int32 LevelTip = 2;
+    int32 Hp = 3;
+}
+
+message CaichengyuGetTipRequest {
+    
+}
+
+message CaichengyuGetTipResponse {
+    int32 Code = 1;
+    int32 Hp = 2; //扣的hp
+}
+//-----------------猜成语---------------------------
+
+
+
+//-----------------方块鸟---------------------------
+message FangkuainiaoGetDataRequest {
+  
+}
+
+message FangkuainiaoGetDataResponse {
+    int32 Code = 1;
+    int64 Userid = 2;
+    int32 BirdId = 3;
+    string BirdArr = 4;
+    int64 SignTime = 5;
+    int64 SignDay = 6;
+    int32 GetGoldCount = 7;
+    int64 GetGoldTime = 8;
+    int64 Level = 9;
+    int32 GameId = 10;
+}
+
+message FangkuainiaoBuySkinRequest {
+    int32 BirdId = 1;
+}
+
+message FangkuainiaoBuySkinResponse {
+    int32 Code = 1;
+    int32 BirdId = 2;
+    int64 Coin = 3;
+}
+
+message FangkuainiaoUseSkinRequest {
+    int32 BirdId = 1;
+}
+
+message FangkuainiaoUseSkinResponse {
+    int32 Code = 1;
+    int32 BirdId = 2;
+}
+
+message FangkuainiaoDaySignRequest {
+  
+}
+
+message FangkuainiaoDaySignResponse {
+    int32 Code = 1;
+    int64 Coin = 2;
+    int64 SignTime = 4;
+}
+
+
+message FangkuainiaoGetCoinRequest {
+    
+}
+
+message FangkuainiaoGetCoinResponse {
+    int32 Code = 1;
+    int64 Coin = 2;
+}
+
+
+message FangkuainiaoGetInvincibleCoinRequest {
+    int64 Coin = 1;
+}
+
+message FangkuainiaoGetInvincibleCoinResponse {
+    int32 Code = 1;
+    int64 Coin = 2;
+}
+
+
+message FangkuainiaoGetLevelCoinRequest {
+    int64 Coin = 1;
+}
+
+message FangkuainiaoGetLevelCoinResponse {
+    int32 Code = 1;
+    int64 Coin = 2;
+}
+
+message FangkuainiaoStartRequest {
+    
+}
+
+message FangkuainiaoStartResponse {
+    int32 Code = 1;
+}
+
+message FangkuainiaoResultRequest {
+    int32 Result = 1;
+}
+
+message FangkuainiaoResultResponse {
+    int32 Code = 1;
+}
+//-----------------方块鸟---------------------------
+
+
+
+
+
+
+//-----------------弓箭传说---------------------------
+message GongjianchuanshuGetDataRequest {
+  
+}
+
+message GongjianchuanshuGetDataResponse {
+    int32 Code = 1;
+    int64 Userid = 2;
+    int32 SkinId = 3;
+    string SkinArr = 4;
+    string ShopArr = 5;
+    int64 Level = 9;
+    int32 GameId = 10;
+}
+
+message GongjianchuanshuAwardCoinRequest {
+    int64 Coin = 1;
+}
+
+message GongjianchuanshuAwardCoinResponse {
+    int32 Code = 1;
+    int64 Coin = 2;
+}
+
+//购买皮肤
+message GongjianchuanshuUnlockSkinRequest {
+    int32 ShopIndex = 1;
+}
+
+message GongjianchuanshuUnlockSkinResponse {
+    int32 Code = 1;
+    int64 Coin = 2;
+}
+
+//使用皮肤
+message GongjianchuanshuUseSkinRequest {
+    int32 ShopIndex = 1;
+}
+
+message GongjianchuanshuUseSkinResponse {
+    int32 Code = 1;
+}
+
+//时间模式开始
+message GongjianchuanshuStartRequest {
+    
+}
+
+message GongjianchuanshuStartResponse {
+    int32 Code = 1;
+}
+
+//时间模式结束
+message GongjianchuanshuResultRequest {
+    int64 Score = 1;
+}
+
+message GongjianchuanshuResultResponse {
+    int32 Code = 1;
+}
+
+//经典模式开始
+message GongjianchuanshuLevelStartRequest {
+    
+}
+
+message GongjianchuanshuLevelStartResponse {
+    int32 Code = 1;
+}
+
+//经典模式结束
+message GongjianchuanshuLevelResultRequest {
+    int64 Score = 1;
+}
+
+message GongjianchuanshuLevelResultResponse {
+    int32 Code = 1;
+}
+
+//经典模式过关
+message GongjianchuanshuLevelPassRequest {
+    int64 Level = 1;
+}
+
+message GongjianchuanshuLevelPassResponse {
+    int32 Code = 1;
+}
+
+//-----------------弓箭传说---------------------------
+
+
+
+//-----------------泡泡龙---------------------------
+message PaopaolongGetDataRequest {
+  
+}
+
+message PaopaolongLevel {
+    int64 Level = 1;
+    int64 Sec = 2;
+    int32 Lose = 3;
+    int64 Score = 4;
+}
+
+message PaopaolongGetDataResponse {
+    int32 Code = 1;
+    int64 Userid = 2;
+    int64 Level = 3;
+    string ItemArr = 4;
+    int32 Hp = 5;
+    int64 FreedrawTime = 6;
+    int32 NewPackRedeemed = 7;
+    int64 ShopFreeDiamondTime = 8;
+    int64 ShopFreeDiamondTime2 = 9;
+    int64 LastSignTime = 10;
+    int32 SignedTime = 11;
+    int64 FirstSignTime = 12;
+    repeated PaopaolongLevel LevelArr = 13;
+    int32 GameId = 14;
+}
+
+message PaopaolongUseItemRequest {
+    int32 ItemId = 1;
+}
+
+message PaopaolongUseItemResponse {
+    int32 Code = 1;
+    int32 ItemId = 2;
+}
+
+message PaopaolongStartRequest {
+    int64 Level = 1;
+}
+
+message PaopaolongStartResponse {
+    int32 Code = 1;
+    int64 Level = 2;
+}
+
+message PaopaolongResultRequest {
+    int32 Result = 1;
+    int64 Level = 2;
+    int64 Score = 3;
+    int64 Sec = 4;
+    int64 Star = 5;
+}
+
+message PaopaolongResultResponse {
+    int32 Code = 1;
+    int64 Level = 2;
+}
+
+message PaopaolongFreeDrawRequest {
+    
+}
+
+message PaopaolongFreeDrawResponse {
+    int32 Code = 1;
+    int32 LuckyId = 2;
+    int64 FreedrawTime = 3;
+}
+
+message PaopaolongCostDrawRequest {
+    
+}
+
+message PaopaolongCostDrawResponse {
+    int32 Code = 1;
+    int32 LuckyId = 2;
+    int64 Coin = 3;
+}
+
+
+message PaopaolongSignRequest {
+    
+}
+
+message PaopaolongSignResponse {
+    int32 Code = 1;
+}
+
+message PaopaolongShopFreeCoinRequest {
+    
+}
+
+message PaopaolongShopFreeCoinResponse {
+    int32 Code = 1;
+    int64 Coin = 2;
+}
+message PaopaolongShopFreeCoin2Request {
+    
+}
+
+message PaopaolongShopFreeCoin2Response {
+    int32 Code = 1;
+    int64 Coin = 2;
+}
+message PaopaolongShopBuyRequest {
+    int32 Id = 1;
+}
+
+message PaopaolongShopBuyResponse {
+    int32 Code = 1;
+    int64 Coin = 2;
+    int32 Id = 3;
+}
+
+message PaopaolongNewPackRequest {
+    
+}
+
+message PaopaolongNewPackResponse {
+    int32 Code = 1;
+}
+//-----------------泡泡龙---------------------------
+
+
+
+//-----------------贪吃蛇---------------------------
+message TanchishedazuozhanGetDataRequest {
+  
+}
+
+message TanchishedazuozhanGetDataResponse {
+    int32 Code = 1;
+    int64 Userid = 2;
+    int32 SkinId = 3;
+    string SkinArr = 4;   
+    int32 GameId = 10;
+}
+
+message TanchishedazuozhanStartRequest {
+    int32 Mode = 1;
+}
+
+message TanchishedazuozhanStartResponse {
+    int32 Code = 1;
+}
+
+message TanchishedazuozhanResultRequest {
+    int32 Result = 1;
+    int32 Mode = 2;
+    int64 Score = 3;
+}
+
+message TanchishedazuozhanResultResponse {
+    int32 Code = 1;
+}
+
+message TanchishedazuozhanBuySkinRequest {
+    int32 SkinId = 1;
+}
+
+message TanchishedazuozhanBuySkinResponse {
+    int32 Code = 1;
+    int32 SkinId = 2;
+    int64 Coin = 3;
+    int64 Diamond = 4;
+}
+
+message TanchishedazuozhanUseSkinRequest {
+    int32 SkinId = 1;
+}
+
+message TanchishedazuozhanUseSkinResponse {
+    int32 Code = 1;
+    int32 SkinId = 2;
+}
+
+message TanchishedazuozhanGetCoinRequest {
+    int64 Coin = 1;
+}
+
+message TanchishedazuozhanGetCoinResponse {
+    int32 Code = 1;
+    int64 Coin = 2;
+}
+
+
+
+//-----------------贪吃蛇---------------------------
+
+
+//----------------天天跑酷---------------------------
+message TiantianpaokuGetDataRequest {
+  
+}
+
+message TiantianpaokuGetDataResponse {
+    int32 Code = 1;
+    int64 Userid = 2;
+    int32 SkinId = 3;
+    string SkinArr = 4;  
+    int32 GameId = 10;
+}
+
+message TiantianpaokuGetCoinRequest {
+    int64 Coin = 1;
+}
+
+message TiantianpaokuGetCoinResponse {
+    int32 Code = 1;
+    int64 Coin = 2;
+}
+
+
+message TiantianpaokuBuySkinRequest {
+    int32 SkinId = 1;
+}
+
+message TiantianpaokuBuySkinResponse {
+    int32 Code = 1;
+    int32 SkinId = 2;
+    int64 Coin = 3;
+}
+
+message TiantianpaokuUseSkinRequest {
+    int32 SkinId = 1;
+}
+
+message TiantianpaokuUseSkinResponse {
+    int32 Code = 1;
+    int32 SkinId = 2;
+}
+
+
+message TiantianpaokuStartRequest {
+    
+}
+
+message TiantianpaokuStartResponse {
+    int32 Code = 1;
+}
+
+message TiantianpaokuResultRequest {
+    int64 Score = 1;
+}
+
+message TiantianpaokuResultResponse {
+    int32 Code = 1;
+}
+//-----------------天天跑酷---------------------------
+
+
+//----------------欢乐猫咪贝---------------------------
+message HuanlemaomibeiGetDataRequest {
+  
+}
+
+message HuanlemaomibeiLevel {
+    int32 Section = 1;
+    int32 Level = 2;
+    int32 Unlock = 3;
+    int32 Star = 4;
+    int64 Coin = 5;
+}
+
+message HuanlemaomibeiGetDataResponse {
+    int32 Code = 1;
+    int64 Userid = 2;
+    int64 FreedrawTime = 3;
+    string InkArr = 4;
+    string CupArr = 5;
+    int32 InkId = 6;
+    int32 CupId = 7;
+    int64 OfflineTime = 8;
+    int32 GameId = 10;
+    repeated HuanlemaomibeiLevel LevelArr = 11;
+    int32 Hp = 12;
+}
+
+message HuanlemaomibeiSignQueryRequest {
+    
+}
+
+message HuanlemaomibeiSignQueryResponse {
+    int32 Code = 1;
+    int32 SignToday = 2;
+    int32 SignDay = 3;
+}
+
+message HuanlemaomibeiSignRequest {
+    
+}
+
+message HuanlemaomibeiSignResponse {
+    int32 Code = 1;
+}
+
+message HuanlemaomibeiFreeDrawQueryRequest {
+    
+}
+
+message HuanlemaomibeiFreeDrawQueryResponse {
+    int32 Code = 1;
+    int64 FreedrawCount = 2;
+}
+
+message HuanlemaomibeiFreeDrawRequest {
+    
+}
+
+message HuanlemaomibeiFreeDrawResponse {
+    int32 Code = 1;
+    int32 GiftIndex = 2;
+    int64 FreedrawTime = 3;
+}
+
+
+message HuanlemaomibeiFlyQueryRequest {
+    
+}
+
+message HuanlemaomibeiFlyQueryResponse {
+    int32 Code = 1;
+    int64 FlyCount = 2;
+}
+
+message HuanlemaomibeiFlyRequest {
+    
+}
+
+message HuanlemaomibeiFlyResponse {
+    int32 Code = 1;
+    int32 GiftIndex = 2;
+    int64 FlyTime = 3;
+}
+
+message HuanlemaomibeiOfflineCoinRequest {
+    
+}
+
+message HuanlemaomibeiOfflineCoinResponse {
+    int32 Code = 1;
+    int64 OfflineTime = 2;
+    int64 Coin = 3;
+}
+
+message HuanlemaomibeiBuySkinRequest {
+    int32 InkId = 1;
+    int32 CupId = 2;
+}
+
+message HuanlemaomibeiBuySkinResponse {
+    int32 Code = 1;
+    int32 InkId = 2;
+    int32 CupId = 3;
+    int64 Coin = 4;
+}
+
+message HuanlemaomibeiUseSkinRequest {
+    int32 InkId = 1;
+    int32 CupId = 2;
+}
+
+message HuanlemaomibeiUseSkinResponse {
+    int32 Code = 1;
+    int32 InkId = 2;
+    int32 CupId = 3;
+}
+
+message HuanlemaomibeiStartRequest {
+    int32 Section = 1;
+    int32 Level = 2;
+}
+
+message HuanlemaomibeiStartResponse {
+    int32 Code = 1;
+    int32 Section = 2;
+    int32 Level = 3;
+}
+
+message HuanlemaomibeiResultRequest {
+    int32 Section = 1;
+    int32 Level = 2;
+    int32 Star = 3;
+}
+
+message HuanlemaomibeiResultResponse {
+    int32 Code = 1;
+    int32 Section = 2;
+    int32 Level = 3;
+}
+
+
+message HuanlemaomibeiLevelCoinRequest {
+    int32 Section = 1;
+    int32 Level = 2;
+}
+
+message HuanlemaomibeiLevelCoinResponse {
+    int32 Code = 1;
+    int32 Section = 2;
+    int32 Level = 3;
+    int64 Coin = 4;
+}
+
+message HuanlemaomibeiLevelUnlockRequest {
+    int32 Section = 1;
+    int32 Level = 2;
+}
+
+message HuanlemaomibeiLevelUnlockResponse {
+    int32 Code = 1;
+    int32 Section = 2;
+    int32 Level = 3;
+    int64 Coin = 4;
+}
+
+message HuanlemaomibeiAddHpRequest {
+    int32 Hp = 1;
+}
+
+message HuanlemaomibeiAddHpResponse {
+    int32 Code = 1;
+    int32 Hp = 2;
+}
+
+message HuanlemaomibeiLevelStartRequest {
+}
+
+message HuanlemaomibeiLevelStartResponse {
+    int32 Code = 1;
+}
+
+message HuanlemaomibeiLevelResultRequest {
+   int64 Score = 1;
+}
+
+message HuanlemaomibeiLevelResultResponse {
+    int32 Code = 1;
+
+}
+
+//-----------------欢乐猫咪贝---------------------------
+
+
+
+//----------------养猪农场---------------------------
+
+message YangzhunongchangItem {
+    int32 Id = 1;
+    int32 Num = 2;
+}
+
+message YangzhunongchangPig {
+    string Id = 1;
+    string Data = 2;
+    int64 Createtime = 3;
+}
+
+message YangzhunongchangBreedPig {
+    string Id = 1;
+    string Data = 2;
+}
+
+message YangzhunongchangUsu {
+    int32 Id = 1;
+}
+
+message YangzhunongchangFood {
+    string Id = 1;
+    string Data = 2;
+}
+
+message YangzhunongchangTask {
+    string Id = 1;
+    int32 Index = 2;
+    string Count = 3;
+}
+
+message YangzhunongchangGetDataRequest {
+  
+}
+
+message YangzhunongchangGetDataResponse {
+    int32 Code = 1;
+    int64 Userid = 2;
+    repeated YangzhunongchangItem ItemArr = 3;
+    int32 FarmLv = 4;
+    string FarmLvName = 5;
+    int32 FarmLvExp = 6;
+    int32 FarmLvExpCur = 7;
+    int32 AwardNum = 8;
+    repeated YangzhunongchangPig PigArr = 9;
+    repeated YangzhunongchangBreedPig BreedPigArr = 10;
+    repeated YangzhunongchangUsu UsuArr = 11;
+    repeated YangzhunongchangFood FoodArr = 12;
+    repeated YangzhunongchangTask TaskArr = 13;
+    int32 GameId = 14;
+}
+
+message YangzhunongchangAddExpRequest {
+    int32 Exp = 1;
+}
+
+message YangzhunongchangAddExpResponse {
+    int32 Code = 1;
+}
+
+message YangzhunongchangAddLevelRequest {
+    int32 FarmLv = 1;
+    string FarmLvName = 2;
+    int32 FarmLvExpCur = 3;
+}
+
+message YangzhunongchangAddLevelResponse {
+    int32 Code = 1;
+}
+
+message YangzhunongchangAddCoinRequest {
+    int64 Coin = 1;
+}
+
+message YangzhunongchangAddCoinResponse {
+    int32 Code = 1;
+}
+
+message YangzhunongchangAddDiamondRequest {
+    int64 Diamond = 1;
+}
+
+message YangzhunongchangAddDiamondResponse {
+    int32 Code = 1;
+}
+
+
+message YangzhunongchangAddItemRequest {
+    int32 Id = 1;
+    int32 Num = 2;
+}
+
+message YangzhunongchangAddItemResponse {
+    int32 Code = 1;
+}
+
+message YangzhunongchangAddPigRequest {
+    string Id = 1;
+    string Data = 2;
+}
+
+message YangzhunongchangAddPigResponse {
+    int32 Code = 1;
+}
+
+message YangzhunongchangDelPigRequest {
+    string Id = 1;
+}
+
+message YangzhunongchangDelPigResponse {
+    int32 Code = 1;
+}
+
+message YangzhunongchangAddBreedPigRequest {
+    string Id = 1;
+    string Data = 2;
+}
+
+message YangzhunongchangAddBreedPigResponse {
+    int32 Code = 1;
+}
+
+message YangzhunongchangDelBreedPigRequest {
+    string Id = 1;
+}
+
+message YangzhunongchangDelBreedPigResponse {
+    int32 Code = 1;
+}
+
+
+message YangzhunongchangAddUsuRequest {
+    int32 Id = 1;
+}
+
+message YangzhunongchangAddUsuResponse {
+    int32 Code = 1;
+}
+
+message YangzhunongchangAddFoodRequest {
+    string Id = 1;
+    string Data = 2;
+}
+
+message YangzhunongchangAddFoodResponse {
+    int32 Code = 1;
+}
+
+message YangzhunongchangDelFoodRequest {
+    string Id = 1;
+}
+
+message YangzhunongchangDelFoodResponse {
+    int32 Code = 1;
+}
+
+
+message YangzhunongchangAddTaskRequest {
+    string Id = 1;
+    int32 Index = 2;
+    string Count = 3;
+}
+
+message YangzhunongchangAddTaskResponse {
+    int32 Code = 1;
+}
+
+message YangzhunongchangAwardRequest {
+  
+}
+
+message YangzhunongchangAwardResponse {
+    int32 Code = 1;
+}
+
+message YangzhunongchangStartRequest {
+    
+}
+
+message YangzhunongchangStartResponse {
+    int32 Code = 1;
+}
+
+message YangzhunongchangResultRequest {
+    int32 Result = 1;
+}
+
+message YangzhunongchangResultResponse {
+    int32 Code = 1;
+}
+//-----------------养猪农场---------------------------

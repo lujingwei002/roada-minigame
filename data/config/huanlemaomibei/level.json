@@ -1,0 +1,475 @@
+ [{
+    "name": "骄阳似火",
+    "array": [{
+        "section":0, "level":0, "name": "梦幻大都会", "icon": "cups/梦幻大都会", "icon2": "cups/梦幻大都会2.png", "coin": 50, "price": 0,
+        "array": [
+            { "name": "橙味甜酒", "prefabName": "maps/Map0101", "ink": 198, "price": 100 },
+            { "name": "青柠檬汁", "prefabName": "maps/Map0102", "ink": 126, "price": 100 },
+            { "name": "士蔓越莓汁", "prefabName": "maps/Map0103", "ink": 112, "price": 100 },
+            { "name": "橙子味伏特加", "prefabName": "maps/Map0104", "ink": 182, "price": 100 }
+        ]
+    }, {
+        "section":0, "level":1, "name": "烈焰红唇", "icon": "cups/烈焰红唇", "icon2": "cups/烈焰红唇2.png", "coin": 50, "price": 80,
+        "array": [
+            { "name": "伏特加", "prefabName": "maps/Map0201", "ink": 234, "price": 100 },
+            { "name": "苦艾酒", "prefabName": "maps/Map0202", "ink": 162, "price": 100 },
+            { "name": "棕可可酒", "prefabName": "maps/Map0203", "ink": 326, "price": 100 },
+            { "name": "鲜奶油", "prefabName": "maps/Map0204", "ink": 146, "price": 100 }
+        ]
+    }, {
+        "section":0, "level":2, "name": "红色马天尼", "icon": "cups/红色马天尼", "icon2": "cups/红色马天尼2.png", "coin": 50, "price": 100,
+        "array": [
+            { "name": "香博力娇酒", "prefabName": "maps/Map0301", "ink": 206, "price": 100 },
+            { "name": "覆盆子伏特加", "prefabName": "maps/Map0302",  "ink": 170, "price": 100 },
+            { "name": "菠萝汁", "prefabName": "maps/Map0303",  "ink": 266, "price": 100 },
+            { "name": "石榴汁", "prefabName": "maps/Map0304", "ink": 198, "price": 100 }
+        ]
+    }, {
+        "section":0, "level":3, "name": "血腥玛丽", "icon": "cups/血腥玛丽", "icon2": "cups/血腥玛丽2.png", "coin": 50, "price": 100,
+        "array": [
+            { "name": "伏特加", "prefabName": "maps/Map0401",  "ink": 102   },
+            { "name": "辣椒油", "prefabName": "maps/Map0402", "ink": 186   },
+            { "name": "番茄汁", "prefabName": "maps/Map0403", "ink": 148   },
+            { "name": "黑胡椒汁", "prefabName": "maps/Map0404", "ink": 114   }
+        ]
+    }, {
+        "section":0, "level":4, "name": "撒旦的胡须", "icon": "cups/撒旦的胡须", "icon2": "cups/撒旦的胡须2.png", "coin": 60, "price": 120,
+        "array": [
+            { "name": "干金酒", "prefabName": "maps/Map0501", "ink": 100   },
+            { "name": "甜威末酒", "prefabName": "maps/Map0502", "ink": 104   },
+            { "name": "金万利橙味酒", "prefabName": "maps/Map0503", "ink": 186  },
+            { "name": "橙汁", "prefabName": "maps/Map0504", "ink": 134   }
+        ]
+    }, {
+        "section":0, "level":5, "name": "尼克罗尼", "icon": "cups/尼克罗尼", "icon2": "cups/尼克罗尼2.png", "coin": 60, "price": 120,
+        "array": [
+            { "name": "金酒", "prefabName": "maps/Map0601", "ink": 135   },
+            { "name": "金巴利", "prefabName": "maps/Map0602", "ink": 95   },
+            { "name": "红味思美", "prefabName": "maps/Map0603", "ink": 120   },
+            { "name": "橙汁", "prefabName": "maps/Map0604", "ink": 181   }
+        ]
+    }]
+}, {
+    
+    "name": "璀璨星空",
+    "array": [{
+        "section":1, "level":0, "name": "北极光", "icon": "cups/北极光", "icon2": "cups/北极光2.png", "coin": 60, "price": 140,
+        "array": [
+            { "name": "查特绿香甜酒", "prefabName": "maps/Map0701", "ink": 212   },
+            { "name": "冰镇格拉巴", "prefabName": "maps/Map0702", "ink": 72   },
+            { "name": "橙味力娇酒", "prefabName": "maps/Map0703", "ink": 97   },
+            { "name": "黑加仑力娇酒", "prefabName": "maps/Map0704", "ink": 108   }
+        ]
+    }, {
+        "section":1, "level":1, "name": "星空酒", "icon": "cups/星空酒", "icon2": "cups/星空酒2.png", "coin": 60, "price": 140,
+        "array": [
+            { "name": "朗姆酒", "prefabName": "maps/Map0801", "ink": 117   },
+            { "name": "无糖苏打水", "prefabName": "maps/Map0802", "ink": 161   },
+            { "name": "热水", "prefabName": "maps/Map0803", "ink": 105   },
+            { "name": "柠檬水", "prefabName": "maps/Map0804", "ink": 421  }
+        ]
+    }, {
+        "section":1, "level":2, "name": "银河星空酒", "icon": "cups/银河星空酒", "icon2": "cups/银河星空酒2.png", "coin": 70, "price": 160,
+        "array": [
+            { "name": "混合左伏特加", "prefabName": "maps/Map0901", "ink": 180   },
+            { "name": "麝香葡萄酒", "prefabName": "maps/Map0902", "ink": 214   },
+            { "name": "橙汁", "prefabName": "maps/Map0903", "ink": 166   },
+            { "name": "黑加仑汁", "prefabName": "maps/Map0904", "ink": 163   }
+        ]
+    }, {
+        "section":1, "level":3, "name": "绿光", "icon": "cups/绿光", "icon2": "cups/绿光2.png", "coin": 70, "price": 160,
+        "array": [
+            { "name": "青檬汁", "prefabName": "maps/Map1001",  "ink": 176   },
+            { "name": "姜汁汽水", "prefabName": "maps/Map1002", "ink": 243   },
+            { "name": "绿薄荷糖浆", "prefabName": "maps/Map1003",  "ink": 142   },
+            { "name": "菠萝汁", "prefabName": "maps/Map1004", "ink": 171   }
+        ]
+    }, {
+        "section":1, "level":4, "name": "玛格丽特", "icon": "cups/玛格丽特", "icon2": "cups/玛格丽特2.png", "coin": 70, "price": 180,
+        "array": [
+
+            { "name": "白龙舌兰", "prefabName": "maps/Map1101","ink": 174   },
+            { "name": "橙味力娇酒", "prefabName": "maps/Map1102", "ink": 139   },
+            { "name": "青檬汁", "prefabName": "maps/Map1103", "ink": 172   },
+            { "name": "柑橘汁", "prefabName": "maps/Map1104",  "ink": 137   }
+        ]
+    }, {
+        "section":1, "level":5, "name": "幻影香味", "icon": "cups/幻影香味", "icon2": "cups/幻影香味2.png", "coin": 70, "price": 180,
+        "array": [
+            { "name": "甘露咖啡力娇酒", "prefabName": "maps/Map1201","ink": 88   },
+            { "name": "苏打水", "prefabName": "maps/Map1202", "ink": 327   },
+            { "name": "伏特加", "prefabName": "maps/Map1203", "ink": 123   },
+            { "name": "加利安奴", "prefabName": "maps/Map1204", "ink": 160   }
+        ]
+    }]
+}, {
+    
+    "name": "慵懒午后",
+    "array": [{
+        "section":2, "level":0, "name": "百万富翁", "icon": "cups/百万富翁", "icon2": "cups/百万富翁2.png", "coin": 80, "price": 200,
+        "array": [
+            { "name": "波本威士忌", "prefabName": "maps/Map1301",  "ink": 69   },
+            { "name": "君度", "prefabName": "maps/Map1302", "ink": 106   },
+            { "name": "力加茴香酒", "prefabName": "maps/Map1303", "ink": 135   },
+            { "name": "石榴糖浆", "prefabName": "maps/Map1304", "ink": 99   }
+        ]
+    }, {
+        "section":2, "level":1, "name": "外交官", "icon": "cups/外交官", "icon2": "cups/外交官2.png", "coin": 80, "price": 200,
+        "array": [
+            { "name": "甜威末酒", "prefabName": "maps/Map1401",  "ink": 183   },
+            { "name": "干威末酒", "prefabName": "maps/Map1402",  "ink": 180   },
+            { "name": "樱桃力娇酒", "prefabName": "maps/Map1403",  "ink": 58   },
+            { "name": "橙味苦精", "prefabName": "maps/Map1404",  "ink": 135   }
+        ]
+    }, {
+        "section":2, "level":2, "name": "飓风", "icon": "cups/飓风", "icon2": "cups/飓风2.png", "coin": 90, "price": 220,
+        "array": [
+            { "name": "柠檬汁", "prefabName": "maps/Map1501",  "ink": 275   },
+            { "name": "黑朗姆酒", "prefabName": "maps/Map1502",  "ink": 82   },
+            { "name": "苏打水", "prefabName": "maps/Map1503",  "ink": 277   },
+            { "name": "百香果汁", "prefabName": "maps/Map1504",  "ink": 102   }
+        ]
+    }, {
+        "section":2, "level":3, "name": "曼哈顿", "icon": "cups/曼哈顿", "icon2": "cups/曼哈顿2.png", "coin": 90, "price": 220,
+        "array": [
+            { "name": "苦精", "prefabName": "maps/Map1601",  "ink": 110   },
+            { "name": "甜威末酒", "prefabName": "maps/Map1602",  "ink": 55   },
+            { "name": "黑麦威士忌", "prefabName": "maps/Map1603",  "ink": 87   },
+            { "name": "樱桃汁", "prefabName": "maps/Map1604", "ink": 114   }
+        ]
+    }, {
+        "section":2, "level":4, "name": "长岛冰茶", "icon": "cups/长岛冰茶", "icon2": "cups/长岛冰茶2.png", "coin": 100, "price": 240,
+        "array": [
+
+            { "name": "金酒", "prefabName": "maps/Map1701", "ink": 88   },
+            { "name": "白朗姆酒", "prefabName": "maps/Map1702",  "ink": 118   },
+            { "name": "白薄荷酒", "prefabName": "maps/Map1703",  "ink": 187   },
+            { "name": "白龙舌兰酒", "prefabName": "maps/Map1704",  "ink": 172   }
+        ]
+    }, {
+        "section":2, "level":5, "name": "农场宾治", "icon": "cups/农场宾治", "icon2": "cups/农场宾治2.png", "coin": 100, "price": 240,
+        "array": [
+            { "name": "黑朗姆酒", "prefabName": "maps/Map1801", "ink": 37   },
+            { "name": "金馥力娇酒", "prefabName": "maps/Map1802",  "ink": 58   },
+            { "name": "青檬汁", "prefabName": "maps/Map1803", "ink": 145   },
+            { "name": "红葡萄酒", "prefabName": "maps/Map1804",  "ink": 123   }
+        ]
+    }]
+}, {
+   
+    "name": "粉红恋人",
+    "array": [{
+        "section":3, "level":0, "name": "猫女郎", "icon": "cups/猫女郎", "icon2": "cups/猫女郎2.png", "coin": 110, "price": 260,
+        "array": [
+            { "name": "覆盆子汁", "prefabName": "maps/Map1901", "ink": 226   },
+            { "name": "青檬汁", "prefabName": "maps/Map1902", "ink": 183   },
+            { "name": "芒果汁", "prefabName": "maps/Map1903",  "ink": 301   },
+            { "name": "雪碧", "prefabName": "maps/Map1904", "ink": 98   }
+        ]
+    }, {
+        "section":3, "level":1, "name": "粉红豹", "icon": "cups/粉红豹", "icon2": "cups/粉红豹2.png", "coin": 110, "price": 260,
+        "array": [
+            { "name": "伏特加", "prefabName": "maps/Map2001", "ink": 129   },
+            { "name": "杏仁力娇酒", "prefabName": "maps/Map2002",  "ink": 177   },
+            { "name": "石榴糖浆", "prefabName": "maps/Map2003",  "ink": 68   },
+            { "name": "奶油", "prefabName": "maps/Map2004",  "ink": 94   }
+        ]
+    }, {
+        "section":3, "level":2, "name": "粉色衣架", "icon": "cups/粉色衣架", "icon2": "cups/粉色衣架2.png", "coin": 120, "price": 280,
+        "array": [
+            { "name": "银龙舌兰", "prefabName": "maps/Map2101",  "ink": 56   },
+            { "name": "君度", "prefabName": "maps/Map2102",  "ink": 128   },
+            { "name": "牛奶", "prefabName": "maps/Map2103",  "ink": 117   },
+            { "name": "石榴糖浆", "prefabName": "maps/Map2104",  "ink": 104   }
+        ]
+    }, {
+        "section":3, "level":3,  "name": "漫步云端", "icon": "cups/漫步云端", "icon2": "cups/漫步云端2.png", "coin": 120, "price": 280,
+        "array": [
+            { "name": "榛子糖浆", "prefabName": "maps/Map2201",  "ink": 195   },
+            { "name": "柠檬汁", "prefabName": "maps/Map2202",  "ink": 140   },
+            { "name": "石榴糖浆", "prefabName": "maps/Map2203",  "ink": 102   },
+            { "name": "苏打水", "prefabName": "maps/Map2204",  "ink": 103  }
+        ]
+    }, {
+        "section":3, "level":4, "name": "红粉佳人", "icon": "cups/红粉佳人", "icon2": "cups/红粉佳人2.png", "coin": 130, "price": 300,
+        "array": [
+
+            { "name": "石榴糖浆", "prefabName": "maps/Map2301",  "ink": 283   },
+            { "name": "金酒", "prefabName": "maps/Map2302",  "ink": 142   },
+            { "name": "牛奶", "prefabName": "maps/Map2303",  "ink": 123   },
+            { "name": "蛋清", "prefabName": "maps/Map2304",  "ink": 82   }
+        ]
+    }, {
+        "section":3, "level":5, "name": "名流", "icon": "cups/名流", "icon2": "cups/名流2.png", "coin": 130, "price": 300,
+        "array": [
+            { "name": "柠檬汁", "prefabName": "maps/Map2401",  "ink": 78   },
+            { "name": "石榴糖浆", "prefabName": "maps/Map2402",  "ink": 62   },
+            { "name": "糖浆", "prefabName": "maps/Map2403",  "ink": 21   },
+            { "name": "苏打水", "prefabName": "maps/Map2404",  "ink": 260   }
+        ]
+    }]
+}, {
+    
+    "name": "海阔天空",
+    "array": [{
+        "section":4, "level":0, "name": "地中海", "icon": "cups/地中海", "icon2": "cups/地中海2.png", "coin": 140, "price": 320,
+        "array": [
+            { "name": "干金酒", "prefabName": "maps/Map2501", "ink": 62   },
+            { "name": "柠檬水", "prefabName": "maps/Map2502",  "ink": 224   },
+            { "name": "蓝橙力娇酒", "prefabName": "maps/Map2503",  "ink": 144   },
+            { "name": "雪碧", "prefabName": "maps/Map2504",  "ink": 228   }
+        ]
+    }, {
+        "section":4, "level":1, "name": "蓝色浪花", "icon": "cups/蓝色浪花", "icon2": "cups/蓝色浪花2.png", "coin": 140, "price": 320,
+        "array": [
+            { "name": "香草味伏特加", "prefabName": "maps/Map2601",  "ink": 213   },
+            { "name": "爱丽鲜", "prefabName": "maps/Map2602",  "ink": 81   },
+            { "name": "白蔓越莓汁", "prefabName": "maps/Map2603",  "ink": 79   },
+            { "name": "君度", "prefabName": "maps/Map2604",  "ink": 168   }
+        ]
+    }, {
+        "section":4, "level":2, "name": "蓝月亮马天尼", "icon": "cups/蓝月亮马天尼", "icon2": "cups/蓝月亮马天尼2.png", "coin": 150, "price": 340,
+        "array": [
+            { "name": "蓝橙力娇酒", "prefabName": "maps/Map2701",  "ink": 109   },
+            { "name": "金酒", "prefabName": "maps/Map2702", "ink": 36   },
+            { "name": "桃味力娇酒", "prefabName": "maps/Map2703",  "ink": 170   },
+            { "name": "雪碧", "prefabName": "maps/Map2704", "ink": 236   }
+        ]
+    }, {
+        "section":4, "level":3, "name": "蓝色湖泊", "icon": "cups/蓝色湖泊", "icon2": "cups/蓝色湖泊2.png", "coin": 150, "price": 340,
+        "array": [
+            { "name": "蓝橙力娇酒", "prefabName": "maps/Map2801",  "ink": 146   },
+            { "name": "伏特加", "prefabName": "maps/Map2802",  "ink": 25   },
+            { "name": "苏打水", "prefabName": "maps/Map2803",  "ink": 156   },
+            { "name": "青柠汁", "prefabName": "maps/Map2804",  "ink": 135   }
+        ]
+    }, {
+        "section":4, "level":4, "name": "蓝色夏威夷", "icon": "cups/蓝色夏威夷", "icon2": "cups/蓝色夏威夷2.png", "coin": 160, "price": 360,
+        "array": [
+
+            { "name": "白朗姆酒", "prefabName": "maps/Map2901",  "ink": 214   },
+            { "name": "黄朗姆酒", "prefabName": "maps/Map2902", "ink": 98   },
+            { "name": "蓝橙力娇酒", "prefabName": "maps/Map2903",  "ink": 164   },
+            { "name": "椰奶", "prefabName": "maps/Map2904", "ink": 106   }
+        ]
+    }, {
+        "section":4, "level":5, "name": "蓝天白云", "icon": "cups/蓝天白云", "icon2": "cups/蓝天白云2.png", "coin": 160, "price": 360,
+        "array": [
+            { "name": "伏特加", "prefabName": "maps/Map3001",  "ink": 176   },
+            { "name": "龙舌兰", "prefabName": "maps/Map3002",  "ink": 52   },
+            { "name": "蓝橙力娇酒", "prefabName": "maps/Map3003",  "ink": 301   },
+            { "name": "柠檬汁", "prefabName": "maps/Map3004",  "ink": 187   }
+        ]
+    }]
+}, {
+   
+    "name": "五光十色",
+    "array": [{
+        "section":5, "level":0, "name": "B-52轰炸机", "icon": "cups/B-52轰炸机", "icon2": "cups/B-52轰炸机2.png", "coin": 170, "price": 380,
+        "array": [
+            { "name": "黑咖啡力娇酒", "prefabName": "maps/Map3101",  "ink": 121   },
+            { "name": "百利甜酒", "prefabName": "maps/Map3102", "ink": 86   },
+            { "name": "黑朗姆酒", "prefabName": "maps/Map3103",  "ink": 24   },
+            { "name": "金万利", "prefabName": "maps/Map3104",  "ink": 57   }
+        ]
+    }, {
+        "section":5, "level":1, "name": "三色旗", "icon": "cups/三色旗", "icon2": "cups/三色旗2.png", "coin": 170, "price": 380,
+        "array": [
+            { "name": "红樱桃力娇酒", "prefabName": "maps/Map3201", "ink": 110   },
+            { "name": "百利甜酒", "prefabName": "maps/Map3202",  "ink": 122   },
+            { "name": "绿薄荷酒", "prefabName": "maps/Map3203",  "ink": 102   },
+            { "name": "雪碧", "prefabName": "maps/Map3204",  "ink": 120   }
+        ]
+    }, {
+        "section":5, "level":2, "name": "白牛", "icon": "cups/白牛", "icon2": "cups/白牛2.png", "coin": 180, "price": 400,
+        "array": [
+            { "name": "甘露咖啡酒", "prefabName": "maps/Map3301", "ink": 102   },
+            { "name": "奶油", "prefabName": "maps/Map3302",  "ink": 300   },
+            { "name": "银龙舌兰", "prefabName": "maps/Map3303",  "ink": 120   },
+            { "name": "苏打水", "prefabName": "maps/Map3304",  "ink": 100   }
+        ]
+    }, {
+        "section":5, "level":3, "name": "后天", "icon": "cups/后天", "icon2": "cups/后天2.png", "coin": 180, "price": 400,
+        "array": [
+            { "name": "银龙舌兰", "prefabName": "maps/Map3401", "ink": 138   },
+            { "name": "白橙力娇酒", "prefabName": "maps/Map3402",  "ink": 74   },
+            { "name": "蓝橙力娇酒", "prefabName": "maps/Map3403",  "ink": 87   },
+            { "name": "绿修道院酒", "prefabName": "maps/Map3404",  "ink": 69   }
+        ]
+    }, {
+        "section":5, "level":4, "name": "比利时", "icon": "cups/比利时", "icon2": "cups/比利时2.png", "coin": 190, "price": 420,
+        "array": [
+
+            { "name": "樱桃力娇酒", "prefabName": "maps/Map3501",  "ink": 98   },
+            { "name": "香蕉力娇酒", "prefabName": "maps/Map3502", "ink": 163   },
+            { "name": "草莓力娇酒", "prefabName": "maps/Map3503",  "ink": 109   },
+            { "name": "雪碧", "prefabName": "maps/Map3504",  "ink": 120   }
+        ]
+    }, {
+        "section":5, "level":5, "name": "伏特加", "icon": "cups/伏特加", "icon2": "cups/伏特加2.png", "coin": 190, "price": 420,
+        "array": [
+            { "name": "伏特加", "prefabName": "maps/Map3601", "ink": 248   },
+            { "name": "柠檬汁", "prefabName": "maps/Map3602",  "ink": 334   },
+            { "name": "石榴糖浆", "prefabName": "maps/Map3603",  "ink": 127   },
+            { "name": "橙汁", "prefabName": "maps/Map3604",  "ink": 214   }
+        ]
+    }]
+}, {
+   
+    "name": "北国风情",
+    "array": [{
+        "section":6, "level":0, "name": "北国冬天", "icon": "cups/北国冬天", "icon2": "cups/北国冬天2.png", "coin": 200, "price": 450,
+        "array": [
+            { "name": "牛奶", "prefabName": "maps/Map3701",  "ink": 242   },
+            { "name": "淡蜂蜜", "prefabName": "maps/Map3702",  "ink": 206   },
+            { "name": "香草精", "prefabName": "maps/Map3703",  "ink": 160   },
+            { "name": "波本威士忌", "prefabName": "maps/Map3704",  "ink": 166   }
+        ]
+    }, {
+        "section":6, "level":1, "name": "柠檬糖", "icon": "cups/柠檬糖", "icon2": "cups/柠檬糖2.png", "coin": 200, "price": 450,
+        "array": [
+            { "name": "伏特加", "prefabName": "maps/Map3801",  "ink": 240   },
+            { "name": "柠檬伏特加", "prefabName": "maps/Map3802",  "ink": 180   },
+            { "name": "柠檬汁", "prefabName": "maps/Map3803",  "ink": 145   },
+            { "name": "蜜桃力娇酒", "prefabName": "maps/Map3804",  "ink": 130   }
+        ]
+    }, {
+        "section":6, "level":2, "name": "金菲士", "icon": "cups/金菲士", "icon2": "cups/金菲士.png", "coin": 210, "price": 480,
+        "array": [
+            { "name": "金酒", "prefabName": "maps/Map3901",  "ink": 156   },
+            { "name": "糖浆", "prefabName": "maps/Map3902", "ink": 103   },
+            { "name": "柠檬汁", "prefabName": "maps/Map3903",  "ink": 112   },
+            { "name": "苏打水", "prefabName": "maps/Map3904",  "ink": 48   }
+        ]
+    }, {
+        "section":6, "level":3, "name": "亚历山大", "icon": "cups/亚历山大", "icon2": "cups/亚历山大2.png", "coin": 210, "price": 480,
+        "array": [
+            { "name": "棕可可力娇酒", "prefabName": "maps/Map4001",  "ink": 213   },
+            { "name": "白兰地", "prefabName": "maps/Map4002",  "ink": 270   },
+            { "name": "高脂奶油", "prefabName": "maps/Map4003", "ink": 194   },
+            { "name": "苏打水", "prefabName": "maps/Map4004",  "ink": 114   }
+        ]
+    }, {
+        "section":6, "level":4, "name": "汤姆柯林斯", "icon": "cups/汤姆柯林斯", "icon2": "cups/汤姆柯林斯2.png", "coin": 220, "price": 510,
+        "array": [
+
+            { "name": "柠檬汁", "prefabName": "maps/Map4101",  "ink": 138   },
+            { "name": "金酒", "prefabName": "maps/Map4102",  "ink": 135   },
+            { "name": "糖浆", "prefabName": "maps/Map4103",  "ink": 182   },
+            { "name": "苏打水", "prefabName": "maps/Map4104",  "ink": 217   }
+        ]
+    }, {
+        "section":6, "level":5, "name": "莫吉托", "icon": "cups/莫吉托", "icon2": "cups/莫吉托2.png", "coin": 220, "price": 510,
+        "array": [
+            { "name": "青檬汁", "prefabName": "maps/Map4201",  "ink": 160   },
+            { "name": "糖浆", "prefabName": "maps/Map4202", "ink": 235   },
+            { "name": "白朗姆酒", "prefabName": "maps/Map4203",  "ink": 144   },
+            { "name": "苏打水", "prefabName": "maps/Map4204", "ink": 91   }
+        ]
+    }]
+}, {
+    
+    "name": "绿意盎然",
+    "array": [{
+        "section":7, "level":0, "name": "大洋之风", "icon": "cups/大洋之风", "icon2": "cups/大洋之风2.png", "coin": 230, "price": 550,
+        "array": [
+            { "name": "杏仁力娇酒", "prefabName": "maps/Map4301", "ink": 57   },
+            { "name": "白朗姆酒", "prefabName": "maps/Map4302",  "ink": 187   },
+            { "name": "蓝橙力娇酒", "prefabName": "maps/Map4303", "ink": 222   },
+            { "name": "菠萝汁", "prefabName": "maps/Map4304",  "ink": 165   }
+        ]
+    }, {
+        "section":7, "level":1, "name": "蒙特卡洛", "icon": "cups/蒙特卡洛", "icon2": "cups/蒙特卡洛2.png", "coin": 230, "price": 550,
+        "array": [
+            { "name": "金酒", "prefabName": "maps/Map4401",  "ink": 289   },
+            { "name": "青檬汁", "prefabName": "maps/Map4402", "ink": 172   },
+            { "name": "绿薄荷酒", "prefabName": "maps/Map4403",  "ink": 242   },
+            { "name": "大金酒", "prefabName": "maps/Map4404", "ink": 178   }
+        ]
+    }, {
+        "section":7, "level":2, "name": "错觉", "icon": "cups/错觉", "icon2": "cups/错觉2.png", "coin": 240, "price": 590,
+        "array": [
+            { "name": "伏特加", "prefabName": "maps/Map4501",  "ink": 133   },
+            { "name": "君度", "prefabName": "maps/Map4502", "ink": 91   },
+            { "name": "蜜瓜力娇酒", "prefabName": "maps/Map4503",  "ink": 109   },
+            { "name": "柠檬汁", "prefabName": "maps/Map4504",  "ink": 139   }
+        ]
+    }, {
+        "section":7, "level":3, "name": "绿色湖泊", "icon": "cups/绿色湖泊", "icon2": "cups/绿色湖泊2.png", "coin": 240, "price": 590,
+        "array": [
+            { "name": "蜜多丽蜜瓜酒", "prefabName": "maps/Map4601",  "ink": 358   },
+            { "name": "伏特加", "prefabName": "maps/Map4602", "ink": 115   },
+            { "name": "柠檬水", "prefabName": "maps/Map4603",  "ink": 138   },
+            { "name": "雪碧", "prefabName": "maps/Map4604",  "ink": 141   }
+        ]
+    }, {
+        "section":7, "level":4, "name": "三叶草", "icon": "cups/三叶草", "icon2": "cups/三叶草2.png", "coin": 250, "price": 630,
+        "array": [
+
+            { "name": "干威末酒", "prefabName": "maps/Map4701", "ink": 147   },
+            { "name": "爱尔兰威士忌", "prefabName": "maps/Map4702", "ink": 129   },
+            { "name": "查特绿香甜酒", "prefabName": "maps/Map4703", "ink": 135   },
+            { "name": "白薄荷力娇酒", "prefabName": "maps/Map4704", "ink": 73   }
+        ]
+    }, {
+        "section":7, "level":5, "name": "飞行的草蜢", "icon": "cups/飞行的草蜢", "icon2": "cups/飞行的草蜢2.png", "coin": 250, "price": 630,
+        "array": [
+            { "name": "绿薄荷力娇酒", "prefabName": "maps/Map4801", "ink": 152   },
+            { "name": "白可可力娇酒", "prefabName": "maps/Map4802", "ink": 279   },
+            { "name": "伏特加", "prefabName": "maps/Map4803", "ink": 130   },
+            { "name": "苏打水", "prefabName": "maps/Map4804", "ink": 110   }
+        ]
+    }]
+}, {
+    
+    "name": "青春活力",
+    "array": [{
+        "section":8, "level":0, "name": "万圣节红眼鸡尾酒", "icon": "cups/万圣节红眼鸡尾酒", "icon2": "cups/万圣节红眼鸡尾酒2.png", "coin": 260, "price": 680,
+        "array": [
+            { "name": "君度", "prefabName": "maps/Map4901", "ink": 195   },
+            { "name": "金酒", "prefabName": "maps/Map4902", "ink": 45   },
+            { "name": "柠檬汁", "prefabName": "maps/Map4903", "ink": 135   },
+            { "name": "蛋清", "prefabName": "maps/Map4904", "ink": 100   }
+        ]
+    }, {
+        "section":8, "level":1, "name": "特基拉日出", "icon": "cups/特基拉日出", "icon2": "cups/特基拉日出2.png", "coin": 260, "price": 680,
+        "array": [
+            { "name": "石榴糖浆", "prefabName": "maps/Map5001", "ink": 180   },
+            { "name": "龙舌兰", "prefabName": "maps/Map5002", "ink": 144   },
+            { "name": "橙汁", "prefabName": "maps/Map5003", "ink": 186   },
+            { "name": "雪碧", "prefabName": "maps/Map5004", "ink": 160   }
+        ]
+    }, {
+        "section":8, "level":2, "name": "香槟提神酒", "icon": "cups/特基拉日出", "icon2": "cups/特基拉日出2.png", "coin": 270, "price": 730,
+        "array": [
+            { "name": "橙汁", "prefabName": "maps/Map5101", "ink":  72},
+            { "name": "石榴糖浆", "prefabName": "maps/Map5102", "ink":  120},
+            { "name": "青檬汁", "prefabName": "maps/Map5103", "ink":  55},
+            { "name": "香槟", "prefabName": "maps/Map5104", "ink":  75}
+        ]
+    }, {
+        "section":8, "level":3, "name": "冷血宝石蓝", "icon": "cups/特基拉日出", "icon2": "cups/特基拉日出2.png", "coin": 270, "price": 730,
+        "array": [
+            { "name": "百香果浆", "prefabName": "maps/Map5201", "ink":  93},
+            { "name": "金酒", "prefabName": "maps/Map5202", "ink":  111},
+            { "name": "蓝橙力娇酒", "prefabName": "maps/Map5203", "ink":  73},
+            { "name": "蜜瓜汁", "prefabName": "maps/Map5204", "ink":  108}
+        ]
+    }, {
+        "section":8, "level":4, "name": "紫色阴霾", "icon": "cups/特基拉日出", "icon2": "cups/特基拉日出2.png", "coin": 280, "price": 780,
+        "array": [
+            { "name": "蓝橙力娇酒", "prefabName": "maps/Map5301", "ink": 103},
+            { "name": "伏特加", "prefabName": "maps/Map5302", "ink":  97},
+            { "name": "香博力娇酒", "prefabName": "maps/Map5303", "ink":  95},
+            { "name": "蔓越莓汁", "prefabName": "maps/Map5304", "ink":  96}
+        ]
+    }, {
+        "section":8, "level":5, "name": "禁酒令宾治", "icon": "cups/特基拉日出", "icon2": "cups/特基拉日出2.png", "coin": 280, "price": 780,
+        "array": [
+            { "name": "柠檬汁", "prefabName": "maps/Map5401", "ink": 111},
+            { "name": "苹果汁", "prefabName": "maps/Map5402", "ink":  1444   },
+            { "name": "姜汁汽水", "prefabName": "maps/Map5403", "ink":  121  },
+            { "name": "糖浆", "prefabName": "maps/Map5404", "ink":  143}
+        ]
+    }]
+}]

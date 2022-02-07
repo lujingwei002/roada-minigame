@@ -1,0 +1,10 @@
+[
+    {"day":"1","item":5,"type":0,"num":200},
+    {"day":"2","item":5,"type":0,"num":500},
+    {"day":"3","item":1,"type":1,"num":5},
+    {"day":"4","item":0,"type":1,"num":2},
+    {"day":"5","item":5,"type":0,"num":1000},
+    {"day":"6","item":3,"type":1,"num":3},
+    {"day":"7","item":5,"type":0,"num":2000}
+    
+]
