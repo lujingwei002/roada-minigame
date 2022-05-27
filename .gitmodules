@@ -1,3 +1,12 @@
 [submodule "lib/roada"]
 	path = lib/roada
 	url = git@github.com:lujingwei002/roada.git
+[submodule "lib/roada-client"]
+	path = lib/roada-client
+	url = git@github.com:lujingwei002/roada-client.git
+[submodule "lib/roada-util"]
+	path = lib/roada-util
+	url = git@github.com:lujingwei002/roada-util.git
+[submodule "lib/roada-gate"]
+	path = lib/roada-gate
+	url = git@github.com:lujingwei002/roada-gate.git
